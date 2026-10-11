@@ -1,0 +1,7 @@
+# Source PDFs stay out of git.
+/pdfs/
+*.pdf
+# Tracked only as <name>.tar.zst.gpg; see scripts/vault.sh.
+/standards/
+/manuals/
+/.vault.*

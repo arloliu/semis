@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Refuse a commit while standards/ holds changes the archive lacks.
+# Bypass with git commit --no-verify.
+exec "$(git rev-parse --show-toplevel)/scripts/vault.sh" check
